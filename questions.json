@@ -1,0 +1,61 @@
+[
+    {
+        "question": "Jag tycker glass är gott och fler borde äta glass",
+        "answers": [
+            {
+                "text": "Håller helt med",
+                "scores": {
+                    "sockerBra": 2,
+                    "gronsakerBra": -2
+                }
+            },
+            {
+                "text": "Håller med till viss del",
+                "scores": {
+                    "sockerBra": 1
+                }
+            },
+            {
+                "text": "Håller inte med till viss del",
+                "scores": {
+                    "gronsakerBra": 1
+                }
+            },
+            {
+                "text": "Håller inte alls med",
+                "scores": {
+                    "gronsakerBra": 2
+                }
+            }
+        ]
+    },
+    {
+        "question": "Kennedy blev inte mördad. Hans huvud bara gjorde sådär spontant",
+        "answers": [
+            {
+                "text": "Håller helt med",
+                "scores": {
+                    "konspirationerBra": 2
+                }
+            },
+            {
+                "text": "Håller med till viss del",
+                "scores": {
+                    "konspirationerBra": 1
+                }
+            },
+            {
+                "text": "Håller inte med till viss del",
+                "scores": {
+                    "motKonspirationer": 1
+                }
+            },
+            {
+                "text": "Håller inte alls med",
+                "scores": {
+                    "motKonspirationer": 2
+                }
+            }
+        ]
+    }
+]
