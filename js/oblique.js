@@ -143,4 +143,14 @@ const random = mulberry32(seed);
 
 const strategy = strategies[Math.floor(random() * strategies.length)];
 
+const number = Math.floor(random() * 10);
+
+const r = Math.floor(random() * 256);
+const g = Math.floor(random() * 256);
+const b = Math.floor(random() * 256);
+const rgb = `rgb(${r}, ${g}, ${b})`;
+
+
 document.getElementById("strategy").textContent = strategy;
+document.getElementById("number").textContent = number;
+document.body.style.backgroundColor = rgb;
