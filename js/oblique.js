@@ -153,4 +153,4 @@ const rgb = `rgb(${r}, ${g}, ${b})`;
 
 document.getElementById("strategy").textContent = strategy;
 document.getElementById("number").textContent = number;
-document.body.style.backgroundColor = rgb;
+document.getElementById("number").style.backgroundColor = rgb;
