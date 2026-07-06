@@ -150,7 +150,13 @@ const g = Math.floor(random() * 256);
 const b = Math.floor(random() * 256);
 const rgb = `rgb(${r}, ${g}, ${b})`;
 
+const ir = 255 - r;
+const ig = 255 - g;
+const ib = 255 - b;
+
+const inverseRgb = `rgb(${ir}, ${ig}, ${ib})`;
 
 document.getElementById("strategy").textContent = strategy;
 document.getElementById("number").textContent = number;
 document.getElementById("number").style.backgroundColor = rgb;
+document.getElementById("number").style.color = inverseRgb;
