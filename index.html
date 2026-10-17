@@ -45,6 +45,15 @@
             padding: 24px 28px;
             background: rgba(235, 111, 146, 1);
         }
+
+        .bandcamp-container {
+            margin: 80px auto 0;
+            display: flex;
+            justify-content: center;
+            background: white;
+            width: fit-content;
+            padding: 10px 20px;
+        }
     </style>
 </head>
 
@@ -53,12 +62,19 @@
 
     <p>Contact me: firstname [at] firstnamelastname [dot] com</p>
     <p id="strategy">Loading…</p>
-
-    <p id="number">Loading…</p>
-
     <script src="js/oblique.js"></script>
 
-</body>
 
+
+    <div class="bandcamp-container">
+        <iframe
+            scrolling="no"
+            style="border: 0; width: 100%; height: 50px;"
+            src="https://bandcamp.com/band_follow_button_deluxe/909324307">
+        </iframe>
+    </div>
+
+
+</body>
 
 </html>
